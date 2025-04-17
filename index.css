@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
+  .formula {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+
+  button {
+    width: 48%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .calculate-btn {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .calculate-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .reset-btn {
+    background-color: #6c757d;
+    color: white;
+  }
+
+  .reset-btn:hover {
+    background-color: #495057;
+  }
+
+  #resultado {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #222;
+    font-weight: bold;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    background: #ffffff;
+    padding: 1rem 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+  }
+  
+
+  @media (max-width: 500px) {
+    button {
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+  }
